@@ -1,0 +1,20 @@
+big_query_keyfile.json
+.gitignore~
+
+# Dependency directories
+node_modules
+jspm_packages
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+
+
