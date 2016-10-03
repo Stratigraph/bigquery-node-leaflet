@@ -4,12 +4,14 @@ A Node application for rendering GDELT event data on a Leaflet map using the Goo
 
 ## Installation
 
-Pre-requisites:
-
 Install npm, node and express.
+
 Install the google-cloud package for node.
+
 Create a google-cloud project and get a service-key for that project.
-Copy the service key file to big_query_keyfile.json in the root of this project.
+
+Copy the service key file to 'big_query_keyfile.json' in the root of this project.
+
 Update the google-cloud require statement in ./lib/mybq.js with your google-cloud project info.
 
 Run npm install.
