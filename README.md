@@ -27,3 +27,4 @@ http://localhost:3000
 Render GDELT events as circles on a Leaflet map.  Color indicates event tone, and diameter indicates average tone magnitude.
 Three pre-downloaded data sets are provided, as well as an option to call the Google Big Query API to pull events from any selected day. The Big Query function requires the source code to be updated with google-cloud project information and a service key.
 
+![Application screen shot.](./gevd_screenshot.png?raw=true)
