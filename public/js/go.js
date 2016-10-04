@@ -83,6 +83,13 @@ $(document).ready(function () {
         validateDay();
     });
 
+    // Validate query limit input
+    $("#bqlimit").focusout(function() {
+        validateQueryLimit();
+    });
+
+
+
 });
 
 function validateDay() {
@@ -91,6 +98,15 @@ function validateDay() {
         $("#dayinput").val("31"); 
     }
 }
+
+
+function validateQueryLimit() {
+    var qlimit = parseInt($("#bqlimit").val());
+    if (qlimit > 10000) {
+        $("#bqlimit").val("10000"); 
+    }
+}
+
 
 
 function enableForms() {

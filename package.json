@@ -1,18 +1,18 @@
 {
-  "name": "ski-dictionary",
+  "name": "gev-demo",
   "version": "1.0.0",
-  "description": "A collection of skier terms and definitions",
+  "description": "Map visualization of GDELT event data.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "ski",
-    "terms",
-    "dictionary"
+    "GDELT",
+    "Leaflet",
+    "Big Query"
   ],
-  "author": "Alex Banks",
-  "license": "MIT",
+  "author": "Doug Murphy",
+  "license": " ",
   "dependencies": {
     "@google-cloud/bigquery": "^0.3.0",
     "body-parser": "^1.14.1",
